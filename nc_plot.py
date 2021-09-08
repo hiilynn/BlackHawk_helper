@@ -66,7 +66,7 @@ plt.rc('font', family='serif')
 plt.figure(figsize=(10,6), dpi=300)
 plt.title(new_name, fontsize=16)
 plt.xlabel(r'$E$ (GeV)', fontsize=14)
-plt.ylabel(r'${\rm d}^2N/{\rm d}E{\rm d}t~({\rm GeV}^{-1}\cdot{\rm s}^{-1}\cdot{\rm cm}^{-3})$', fontsize=14)
+plt.ylabel(r'${\rm d}^2n/{\rm d}E{\rm d}t~({\rm GeV}^{-1}\cdot{\rm s}^{-1}\cdot{\rm cm}^{-3})$', fontsize=14)
 
 # Prepare Data to Plot
 x = var['E'][:]
